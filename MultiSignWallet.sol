@@ -6,7 +6,7 @@ contract MultiSigWallet {
     event SubmitTransaction(
         address indexed owner,
         uint256 indexed txIndex,   
-        address indexed to,
+        address indexed to,   
         uint256 value,
         bytes data
     );
