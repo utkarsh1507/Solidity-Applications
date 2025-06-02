@@ -7,7 +7,7 @@ contract MultiSigWallet {
         address indexed owner,
         uint256 indexed txIndex,   
         address indexed to,   
-        uint256 value,
+        uint256 value,  
         bytes data
     );   
     event ConfirmTransaction(address indexed owner, uint256 indexed txIndex);
