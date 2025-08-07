@@ -7,7 +7,7 @@ contract EtherWallet {
     constructor() {
         owner = payable(msg.sender);
     }
-
+     
     receive() external payable {}
 
     function withdraw(uint256 _amount) external {
